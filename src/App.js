@@ -4,7 +4,7 @@ import Card from './components/card';
 import data from './data';
 function App() {
   const dataElement = data.map(item => {
-    return <Card item={item} />;
+    return <Card {...item} />;
     
   })
   return (
